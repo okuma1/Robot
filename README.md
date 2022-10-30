@@ -23,6 +23,7 @@ chmod 755 script.sh
 
 
 #Argumentos para o Boot.
+
 1-Pingar = pingar algum host
 2-namorar = Verifica se o boot namora
 3-map = varredura nas portas
