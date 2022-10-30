@@ -14,7 +14,22 @@ Em seguida, executamos o comando:
 
 chmod 755 Robot/conf.sh && sudo Robot/conf.sh
 
+Agora basta chamar o comando "robot"
+
 2 - Executando como um arquivo.
 
 chmod 755 script.sh
 ./script.sh
+
+
+#Argumentos para o Boot.
+1-Pingar = pingar algum host
+2-namorar = Verifica se o boot namora
+3-map = varredura nas portas
+3-servicos = verfica os serviços no host
+4-update = atualiza os pacotes do host
+5-destruicao = destruir a maquina
+6-horario = verifica a hora
+7-dir = cria diretório
+8-man = manual
+9-criado = quem criou o boot
