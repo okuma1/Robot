@@ -11,4 +11,4 @@ cp Robot/script.sh /usr/bin/robot
 rm -rf Robot
 apt install gnustep-gui-runtime -y 
 
-echo "Configução pronta!
+echo "Configução pronta!"
