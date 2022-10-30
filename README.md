@@ -42,4 +42,4 @@ chmod 755 script.sh
 
 8-man = manual
 
-9-criado = quem criou o boot
+9-criador = quem criou o boot
