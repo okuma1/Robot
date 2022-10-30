@@ -35,7 +35,11 @@ chmod 755 script.sh
 4-update = atualiza os pacotes do host
 
 5-destruicao = destruir a maquina
+
 6-horario = verifica a hora
+
 7-dir = cria diretório
+
 8-man = manual
+
 9-criado = quem criou o boot
