@@ -66,7 +66,7 @@ PING="ping -c3 $IP"
 function mapear()
 {
     read -p "IP do alvo: " IP
-    nmap -Pn -Sv $IP 
+    nmap -Pn -sV $IP 
 }
 function servicos()
 {
