@@ -1,9 +1,9 @@
 # Robot
 
-##Objetivo 
+## Objetivo 
 Criar um robo em shell script que funciona baseado em chamdas de funções.
 
-##Passo a Passo da configuação.
+## Passo a Passo da configuação.
 - Tem 2 formas de executar o boot:
 
 1 - Adicionando o script no diretorio /bin para que você possa executar o comando.
@@ -22,7 +22,7 @@ chmod 755 script.sh
 ./script.sh
 
 
-#Argumentos para o Boot.
+# Argumentos para o Boot.
 
 1-Pingar = pingar algum host
 2-namorar = Verifica se o boot namora
