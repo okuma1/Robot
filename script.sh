@@ -56,7 +56,7 @@ function start() #1
 
 function ping()
 {
-    read "IP do host: " IP
+    read -p "IP do host: " IP
     TESTE="ping $IP -c3"
     $TESTE
     if [ $? -eq 0 ] #$? = 0 verdadeiro (resultado deu certo) / outro numero = false
@@ -73,7 +73,7 @@ function ping()
 function nmap()
 {
     echo "Por favor, utilize essa função para fins educativos. :)"
-    read "IP do alvo: " IP
+    read -p "IP do alvo: " IP
     nmap -Pn -Sv $IP 
 }
 
@@ -143,7 +143,7 @@ case $RAN in
 
 function destruicao()
 {
-    read "Deseja continuar com esse comando(yes/no)?" DECISAO
+    read -p "Deseja continuar com esse comando(yes/no)?" DECISAO
     if [ $DECISAO == "yes"]
     then
         echo "Destruindo em 3......."
@@ -158,9 +158,9 @@ function destruicao()
 
 function diretorio()
 {
-    read "Digite o nome que você queira dar para o seu diretorio: " DIRETORIO 
+    read -p "Digite o nome que você queira dar para o seu diretorio: " DIRETORIO 
     echo
-    read "PATH onde você deseja criar o diretório (EX:/home/diretorio)" PATH 
+    read -p "PATH onde você deseja criar o diretório (EX:/home/diretorio)" PATH 
     echo "Criando...."
     sleep 2s
     echo "Criando......"
