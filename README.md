@@ -25,10 +25,15 @@ chmod 755 script.sh
 # Argumentos para o Boot.
 
 1-Pingar = pingar algum host
+
 2-namorar = Verifica se o boot namora
+
 3-map = varredura nas portas
+
 3-servicos = verfica os serviços no host
+
 4-update = atualiza os pacotes do host
+
 5-destruicao = destruir a maquina
 6-horario = verifica a hora
 7-dir = cria diretório
