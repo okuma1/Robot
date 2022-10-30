@@ -151,7 +151,7 @@ function diretorio()
     echo "Criando...."
     sleep 2s
     echo "Criando......"
-    mkdir $DIRETORIO $PATH
+    mkdir -p $DIRETORIO $PATH
 }
 
 function criador()
